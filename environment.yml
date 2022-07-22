@@ -1,0 +1,4 @@
+name: tweets
+channels:
+  - defaults
+prefix: /Users/amolsingh/anaconda3/envs/tweets
