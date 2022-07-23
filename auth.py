@@ -9,4 +9,4 @@ bearer_token = 'AAAAAAAAAAAAAAAAAAAAAO12fAEAAAAAQm7EFkQSy%2Fsmuc5Ru%2BSduuir7wM%
 #for sentimenModelHF.py
 hf_token = "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"
 
-test/
+tes
