@@ -1,4 +1,56 @@
 name: tweets
 channels:
+  - conda-forge
   - defaults
+dependencies:
+  - blas=1.0=mkl
+  - blinker=1.4=py_1
+  - bottleneck=1.3.5=py310h4e76f89_0
+  - brotlipy=0.7.0=py310h1961e1f_1004
+  - bzip2=1.0.8=h0d85af4_4
+  - ca-certificates=2022.07.19=hecd8cb5_0
+  - certifi=2022.6.15=py310hecd8cb5_0
+  - cffi=1.15.1=py310h96bbf6e_0
+  - charset-normalizer=2.1.0=pyhd8ed1ab_0
+  - cryptography=37.0.4=py310h52c3658_0
+  - idna=3.3=pyhd8ed1ab_0
+  - intel-openmp=2021.4.0=hecd8cb5_3538
+  - libcxx=12.0.0=h2f01273_0
+  - libffi=3.4.2=h0d85af4_5
+  - libzlib=1.2.12=hfe4f2af_2
+  - mkl=2021.4.0=hecd8cb5_637
+  - mkl-service=2.4.0=py310hca72f7f_0
+  - mkl_fft=1.3.1=py310hf879493_0
+  - mkl_random=1.2.2=py310hc081a56_0
+  - ncurses=6.3=h96cf925_1
+  - numexpr=2.8.3=py310hdcd3fac_0
+  - numpy=1.22.3=py310hdcd3fac_0
+  - numpy-base=1.22.3=py310hfd2de13_0
+  - oauthlib=3.2.0=pyhd8ed1ab_0
+  - openssl=1.1.1q=hca72f7f_0
+  - packaging=21.3=pyhd3eb1b0_0
+  - pandas=1.4.3=py310he9d5cce_0
+  - pip=22.2=pyhd8ed1ab_0
+  - pycparser=2.21=pyhd8ed1ab_0
+  - pyjwt=2.4.0=pyhd8ed1ab_0
+  - pyopenssl=22.0.0=pyhd8ed1ab_0
+  - pyparsing=3.0.4=pyhd3eb1b0_0
+  - pysocks=1.7.1=py310h2ec42d9_5
+  - python=3.10.5=hdaaf3db_0_cpython
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python_abi=3.10=2_cp310
+  - pytz=2022.1=py310hecd8cb5_0
+  - readline=8.1.2=h3899abd_0
+  - requests=2.28.1=pyhd8ed1ab_0
+  - requests-oauthlib=1.3.1=pyhd8ed1ab_0
+  - setuptools=63.2.0=py310h2ec42d9_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.39.2=hd9f0692_0
+  - tk=8.6.12=h5dbffcc_0
+  - tweepy=4.10.0=pyhd8ed1ab_0
+  - tzdata=2022a=h191b570_0
+  - urllib3=1.26.10=pyhd8ed1ab_0
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - xz=5.2.5=haf1e3a3_1
+  - zlib=1.2.12=hfe4f2af_2
 prefix: /Users/amolsingh/anaconda3/envs/tweets
