@@ -24,5 +24,9 @@ def main():
 	df = pd.DataFrame(tweets_analysis)
 	sentiment_counts = df.groupby(['sentiment']).size()
 	print(sentiment_counts)
+	saved_model = tf.keras.models.load_model('saved_model/my_model')
+	#should be afinn scores on df or try to transfer to hf model scores
+	print(saved_model.predict(df))
+
 if __name__ == '__main__':
 	main()
