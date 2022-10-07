@@ -30,3 +30,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
+#https://github.com/KasperGroesLudvigsen/influenza_transformer
+#https://github.com/alpacahq/alpaca-trade-api-python/blob/master/examples/long-short.py
